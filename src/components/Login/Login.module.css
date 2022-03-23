@@ -1,0 +1,40 @@
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50%;
+    height: 50%;
+    border-radius: 3px;
+    padding: 50px;
+}
+
+button {
+    padding: 7px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.formGroup {
+    width: 45%;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+}
